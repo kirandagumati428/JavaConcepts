@@ -5,6 +5,7 @@ import java.util.Set;
 
 public class DupilcateElements {
 	static int a[]= {2,3,4,2,5,3,2,6,5,4,2,3};
+	static int count=0;
 	//static int sum=0;
 	/*public static void m2() {
 	
@@ -28,6 +29,7 @@ public class DupilcateElements {
 	for(int num:a) {
 		if (s.contains(num)) {
 			ans.add(num);
+			count++;
 				
 		}else {
 			s.add(num);
@@ -35,6 +37,7 @@ public class DupilcateElements {
 		
 	}
 	System.out.println(ans);
+	System.out.println(count);
 	//System.out.println();
 }
 		}
